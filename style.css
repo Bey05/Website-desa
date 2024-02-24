@@ -1,0 +1,426 @@
+
+*{
+    
+}
+body{
+
+
+}
+
+h2{
+    text-transform: uppercase;
+}
+.welcome-hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    background:url("background desa.jpg");
+    background-size:cover;
+    background-position: center;
+    height:890px;
+}
+.welcome-hero:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(255,255,255,0.5);
+    width:100%;
+    height:100%;
+}
+.welcome-hero .row{
+    margin-top: 2rem;
+}
+.welcome-hero .container{
+    position: absolute;
+}
+.welcome-hero .container .col-sm-{
+    margin-top: 5rem;
+    
+}
+.welcome-hero .container .col-sm- a{
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+   font-size: 2rem;
+}
+/*.header-text-area*/
+.header-text{
+    
+}
+.header-text h2 {
+    color: #;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+    
+}
+
+.header-text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 30px 0 60px;
+    letter-spacing: 1px;
+}
+
+#title-website{
+    color: #213363;
+    animation: logoanimasi 5s ease;
+}
+@keyframes logoanimasi {
+    0% {
+        opacity: 0%;
+        margin-top: 15rem;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+        
+    }
+
+
+}
+/* about */
+
+.about{
+    background-color: ;
+}
+
+.about .container-fluid{
+    
+}
+
+.about .container .row {
+    
+}
+#row1{
+    margin-top: 2rem;
+}
+#row1 .col{
+    margin-top: 5rem;
+}
+#row2{
+    margin-top: 3rem;
+    background: linear-gradient(to bottom,#fff,#F3EEEA);
+}
+#row2 i{
+    align-items: center;
+    color: gray;
+}
+#row2 p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+#row3{
+     background: linear-gradient( to bottom,#F3EEEA,#fff);
+}
+#row3 #card{
+    margin-top: 2rem;
+}
+#row3 i{
+    color: #40A2D8;
+    
+}
+#row3 p{
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+}
+#row4{
+   
+}
+#row4 #card{
+    margin-top: 2rem;
+}
+#row4 i{
+    color: #40A2D8;
+}
+#row4 p{
+   font-family: "Comic Neue", cursive;
+    font-weight: 400;
+}
+#container2{
+    background-color: #AEE2FF;
+}
+#container2 p{
+    font-family: "Comic Neue", cursive;
+}
+#row5 video{
+    width: ;
+}
+#row5 p{
+    
+}
+#carouselExampleIndicators{
+    font-family: "Comic Neue", cursive;
+    font-weight: 500;
+}
+#carouselExampleIndicators .card{
+    border-color: #40A2D8;
+}
+.visi{
+   
+}
+.visi .container-fluid{
+    padding-top: 5rem;
+}
+#visi p{
+    font-family: "Poppins", sans-serif;
+}
+#rowv{
+    
+}
+#Struktur{
+    background-color: #ECF2FF;
+}
+#struktur .container-fluid{
+    padding-top: 5rem;
+    
+}
+#Wilayah{
+    min-height: 700px;
+}
+#Wilayah .container-fluid{
+    padding-top: 5rem;
+    
+}
+
+#Wilayah .maps{
+    border: 1px solid black;
+    
+}
+#wilayah-p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+}
+/* footer */
+.footer-bs {
+  background-color: #3c3d41;
+  padding: 60px 40px;
+  color: rgba(255, 255, 255, 1.00);
+  margin-bottom: 20px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 6px;
+}
+
+.footer-bs .footer-brand,
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  padding: 10px 25px;
+}
+
+.footer-bs .footer-nav,
+.footer-bs .footer-social,
+.footer-bs .footer-ns {
+  border-color: transparent;
+}
+
+.footer-bs .footer-brand h2 {
+  margin: 0px 0px 10px;
+}
+
+.footer-bs .footer-brand p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+.footer-bs .footer-nav ul.pages {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-bs .footer-nav ul.pages li {
+  padding: 5px 0px;
+}
+
+.footer-bs .footer-nav ul.pages a {
+  color: rgba(255, 255, 255, 1.00);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-bs .footer-nav ul.pages a:hover {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer-bs .footer-nav h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.footer-bs .footer-nav ul.list {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-bs .footer-nav ul.list li {
+  padding: 5px 0px;
+}
+
+.footer-bs .footer-nav ul.list a {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer-bs .footer-nav ul.list a:hover {
+  color: rgba(255, 255, 255, 0.60);
+  text-decoration: none;
+}
+
+.footer-bs .footer-social ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.footer-bs .footer-social h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.footer-bs .footer-social li {
+  padding: 5px 4px;
+}
+
+.footer-bs .footer-social a {
+  color: rgba(255, 255, 255, 1.00);
+  text-decoration: none;
+}
+
+.footer-bs .footer-social a:hover {
+  color: rgba(255, 255, 255, 0.80);
+  text-decoration: none;
+}
+
+.footer-bs .footer-ns h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.footer-bs .footer-ns p {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.70);
+}
+
+@media (min-width: 768px) {
+  .footer-bs .footer-nav,
+  .footer-bs .footer-social,
+  .footer-bs .footer-ns {
+    border-left: solid 1px rgba(255, 255, 255, 0.10);
+  }
+}
+
+
+
+@media screen and (max-width: 435px){
+#title-website{
+    font-size: 30px;
+    
+}
+    #row5 video{
+    width: ;
+    height: ;
+    text-align: center;
+    
+}
+.visi #row-visi{
+    font-size: 15px;
+}
+.visi #row-visi #logo-visi{
+    font-size: 10px;
+    padding-right: 1rem;
+}
+#struktur-img{
+    width: 50vh;
+    height: 35vh;
+}
+#Wilayah .maps{
+    width:335;
+    height:200;
+}
+
+}
+
+@media screen and (min-width: 435px) and ( max-width: 768px){
+    #row5 video{
+    width: ;
+    height: ;
+    text-align: center;
+    
+}
+.visi #row-visi{
+    font-size: 18px;
+}
+.visi #row-visi #logo-visi{
+    font-size: 12px;
+    padding-right: 3rem;
+}
+#struktur-img{
+    width: 50vh;
+    height: 35vh;
+}
+#Wilayah .maps{
+    width:335;
+    height:200;
+}
+
+}
+@media screen and( min-width 768px){
+    #wilayah{
+        
+    }
+    #wilayah #wilayah-p{
+        font-size: 12px;
+    }
+}
+@media screen and ( min-width: 1024px ){
+    
+    .visi #row-visi #logo-visi{
+    font-size: 12px;
+}
+    #struktur-img{
+    width: 70vh;
+    height: 55vh;
+}
+    #wilayah .maps{
+        width: 500;
+        height: 350;
+    }
+}
+@media screen and ( min-width: 1440px){
+    #row5 video{
+    width: ;
+    height: ;
+    text-align: center;
+    
+}
+
+#struktur-img{
+    width: 85vh;
+    height: 65vh;
+}
+#Wilayah .maps{
+    width:600;
+    height:450;
+}
+    
+}
+
+
+
+
+
+
